@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.bric:javagraphics-geom:0.0.1'
+    compile 'com.bric:javagraphics-geom:0.0.2'
 
     testCompile 'junit:junit:4.11'
 }
