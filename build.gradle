@@ -18,11 +18,14 @@ repositories {
     maven {
         url 'http://mvn.topobyte.de'
     }
+    maven {
+        url 'http://mvn.slimjars.com'
+    }
     mavenCentral()
 }
 
 dependencies {
-    compile 'com.bric:javagraphics-geom:0.0.2'
+    compile 'com.bric:javagraphics-geom:0.1.0'
 
     testCompile 'junit:junit:4.11'
 }
